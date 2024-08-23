@@ -12,7 +12,7 @@ def conv2d(inputs, kernels, bias, stride, padding):
     padding: 填充
     """
     # 获取输入数据和卷积核的形状
-    C, H, W = inputs.shape 
+    C, H, W = inputs.shape
     F, C, HH, WW = kernels.shape
 
     # padding
